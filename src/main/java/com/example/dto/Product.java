@@ -3,6 +3,7 @@ package com.example.dto;
 
 public class Product {
 	private Integer id;
+	private String productName;
 	private String channel;
 	private String serverPort;
 
@@ -15,6 +16,15 @@ public class Product {
 		this.id = id;
 	}
 
+	public String getProductName() {
+		return productName;
+	}
+
+
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
+	
 
 	public String getChannel() {
 		return channel;
